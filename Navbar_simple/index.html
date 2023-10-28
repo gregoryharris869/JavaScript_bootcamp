@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+    <title>Simple Navbar</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-overlay" onclick="toggleMenuOpen();"></div>
+      <button type="button" class="navbar-burger" onclick="toggleMenuOpen()">
+        <span class="material-symbols-outlined"> menu </span>
+      </button>
+
+      <h1 class="navbar-title">GH Webdev</h1>
+      <nav class="navbar-menu">
+        <button type="button" class="active">Home</button>
+        <button type="button">About</button>
+        <button type="button">Projects</button>
+        <button type="button">Contact</button>
+      </nav>
+    </nav>
+    <script src="script.js"></script>
+  </body>
+</html>
